@@ -383,6 +383,7 @@ margin-right: auto;
 
 .link-mail,
 .linktel{
+  display: flex;
   padding: 32px 50px 32px 0;
 }
 
