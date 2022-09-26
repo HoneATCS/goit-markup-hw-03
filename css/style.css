@@ -402,12 +402,55 @@ text-align: center;
 
 .button-primary{
 padding: 0;
-margin: ;
-
-
+margin: 0;
 }
 
 .hero-container{
   margin: 0 auto;
   text-align: content;
+}
+.skills{
+  display: flex;
+
+}
+
+.forimages{
+  display: flex;
+
+}
+
+.our-describe-conteiner{
+  padding: 94px;
+}
+
+.skil{
+  padding-top: 10px;
+  margin: 0 30px;
+}
+
+.working{
+margin-bottom: 50px;
+text-align: center;
+}
+
+.picture{
+  margin: 0 30px;
+  padding-bottom: 94px;
+}
+
+.carts{
+  display: flex;
+}
+.team{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-title{
+  margin-bottom: 50px;
+}
+.person{
+  margin: 0 30px;
+}
+.footerlist{
+  padding-left: 30px;
 }
