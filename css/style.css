@@ -163,6 +163,7 @@ li {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .person {
   background-color: #ffffff;
 }
@@ -303,4 +304,109 @@ li {
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
   text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+ul,ol,p{
+  margin: 0;
+  padding-left: 0;
+}
+.header{
+  display: flex;
+}
+
+/*flex*/
+.contacts-list-h,
+.site-nav-list{
+display: flex;
+
+}
+
+.navigation{
+  display: flex;
+  margin-right: 344px;
+}
+
+.container{
+display: flex;
+width: 1200;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid red;
+margin: 0 auto;
+}
+
+.hero-container{
+display: flex;
+width: 1200;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid red;
+margin: 0 auto;
+}
+
+.our-describe-conteiner{
+display: flex;
+width: 1200;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid red;
+margin: 0 auto;
+}
+
+.work-conteiner{
+display: flex;
+width: 1200;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid red;
+margin: 0 auto;
+}
+
+.logo{
+ margin: 24px 93px 25px 0;
+}
+
+.link-s,
+.link{
+  display: flex;
+  padding: 32px 50px 32px 0;
+}
+
+.contacts-list-h{
+display: flex;
+margin-right: auto;
+}
+
+.link-mail,
+.linktel{
+  padding: 32px 50px 32px 0;
+}
+
+.bg-hero{
+margin: 0;
+max-width: 1200;
+text-align: content;
+}
+
+/*main padding: 200px 452px 280px 452px;*/
+.h-title{
+margin: 200px 452px 40px 452px;
+max-width: 120px;
+text-align: center;
+}
+
+.button-primary{
+padding: 0;
+margin: ;
+
+
+}
+
+.hero-container{
+  margin: 0 auto;
+  text-align: content;
 }
