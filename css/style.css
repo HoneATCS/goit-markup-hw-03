@@ -224,8 +224,10 @@ li {
 }
 
 .carts {
+  display: flex;
   text-decoration: none;
   padding-top: 50px;
+  gap: 30px;
   
 }
 
@@ -236,14 +238,16 @@ li {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
-.carts .text-cart {
+.pcarts .text-cart {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .footer > .container{
@@ -415,9 +419,11 @@ margin: 0;
 display: flex;
 gap: 30px;
 }
-
+.title{
+  margin-bottom: 10px;
+}
 .list-skills{
-  flex-basis: calc((100% - 3 * 30px))/4;
+  flex-basis: calc((100% - 3 * 30px)) / 4;
 }
 .forimages{
   display: flex;
@@ -460,16 +466,18 @@ border-radius: 0px;
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
+  text-decoration: none;
   
 }
 
 .card-set > .item-carts{
   flex-basis: calc((100% - 2 * 30px) / 3);
-  
+  text-decoration: none;
 }
 
 .item-carts-item{
 padding: 20px 24px;
+text-decoration: none;
 
 }
 
@@ -477,7 +485,7 @@ padding: 20px 24px;
   gap: 30px;
   display: flex;
   justify-content: center;
-  
+  text-decoration: none;
 }
 
 
