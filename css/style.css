@@ -195,6 +195,19 @@ li {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.butone{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  text-decoration: none;
+  border-color: transparent;
+  padding: 6px 25px;
+}
 
 .but {
   font-family: var(--font-family);
@@ -207,10 +220,13 @@ li {
   border-radius: 4px;
   text-decoration: none;
   border-color: transparent;
+  padding: 6px 22px;
 }
 
 .carts {
   text-decoration: none;
+  padding-top: 50px;
+  
 }
 
 .cart-name {
@@ -320,12 +336,16 @@ ul,ol,p{
   margin: 0;
   padding-left: 0;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 
 /*flex*/
 .contacts-list-h,
 .site-nav-list{
 display: flex;
-gap: 30px;
+gap: 50px;
 margin-left: 93px;
 }
 
@@ -334,13 +354,15 @@ margin-left: 93px;
   align-items: center;
   
 }
+.header{
+border-bottom: 1px solid #ececec;
+} 
 
 header > .container{
   display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
   margin: 0 auto;
   align-items: center;
   }
@@ -349,7 +371,6 @@ header > .container{
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
   margin: 0 auto;
   }
 
@@ -370,14 +391,10 @@ margin-left: auto;
   display: flex;
   padding: 32px 0;
 }
-.main{
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-.bg-hero > .container{
+.bg-hero{
 padding-top: 200px;
-padding-bottom: 280px;
+padding-bottom: 200px;
 text-align: center;
 }
 
@@ -386,101 +403,125 @@ text-align: center;
 text-align: center;
 max-width: 796px;
 margin: 0 auto;
+margin-bottom: 30px;
 }
 
 .button-primary{
-padding: 0;
+padding: 10px 32px;
 margin: 0;
 }
 
 .skills{
-  display: flex;
-
+display: flex;
+gap: 30px;
 }
 
+.list-skills{
+  flex-basis: calc((100% - 3 * 30px))/4;
+}
 .forimages{
   display: flex;
   gap: 30px;
 }
-.list-skills{
-  text-align: center;
-  margin-top: 94px;
-  margin-bottom: 59px;
-
+ 
+.forimages > .picture{
+margin-top: 50px;
 }
 
-.skil{
-  padding-top: 10px;
-  margin: 0 30px;
+.our-describe{
+padding-top: 94px;
+padding-bottom: 47px;
 }
+
 .forimages{
+padding-top: 59px;
+
+}
+.work{
 padding-top: 59px;
 padding-bottom: 94px;
 }
 
-.work{
-
-}
-
 .working{
-padding-top: 59px;
+
 text-align: center;
 }
 
 .picture{
-
+display: block;
  gap: 30px;
+ max-width: 100%;
+ background: url(16166.jpg);
+border-radius: 0px;
 }
+
 .card-set{
+  display: flex;
   padding: 0;
   margin: 0;
-  display: flex;
   flex-wrap: wrap;
-  outline: 1px solid green;
-  justify-content: space-around;
-}
-.card-set > .item-carts{
-  flex-basis: calc(100/3);
-  outline: 1px solid teal;
   
 }
 
-.container > .card-set{
-  gap: 30px;
-  padding-bottom: 94px;
+.card-set > .item-carts{
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  
 }
+
+.item-carts-item{
+padding: 20px 24px;
+
+}
+
+.card-set{
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
 
 .person{
   text-align: center;
 }
 
-.team-title{
-  margin-bottom: 50px;
+
+.team{
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .footerlist{
   padding-left: 30px;
 }
+
 .footer{
-  max-width: 1200px;
-  margin: 0 auto;
+ background-color: var(--bg-herro);
 }
 
+.name{
+  margin-top: 30px;
+}
+
+.person-work{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 
 .list-buttons{
   display: flex;
   gap: 8px;
   justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 100px;
+  margin-bottom: 50px;
+
 }
 
+.allabout{
+  padding: 94px 94px;
 
-.blockard{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(3, 1fr);
-grid-column-gap: 30px;
-grid-row-gap: 30px;
 }
+
+.allabout > .container{
+  width: 1200px;
+}
+
