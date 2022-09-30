@@ -177,6 +177,8 @@ li {
   color: var(--text-color);
 }
 
+.list-buttons .butone:hover,
+.list-buttons .butone:focus,
 .list-buttons .but:hover,
 .list-buttons .but:focus {
   color: #ffffff;
@@ -226,9 +228,13 @@ li {
 .carts {
   display: flex;
   text-decoration: none;
-  padding-top: 50px;
   gap: 30px;
-  
+  margin-top: 50px;
+}
+
+.namec{
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .cart-name {
@@ -249,7 +255,9 @@ li {
   color: var(--text-color);
   text-decoration: none;
 }
-
+.pcarts{
+  text-decoration: none;
+}
 .footer > .container{
   background: var(--bg-herro);
   padding-top: 60px;
@@ -428,21 +436,15 @@ gap: 30px;
 .forimages{
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
  
-.forimages > .picture{
-margin-top: 50px;
-}
 
 .our-describe{
 padding-top: 94px;
 padding-bottom: 47px;
 }
 
-.forimages{
-padding-top: 59px;
-
-}
 .work{
 padding-top: 59px;
 padding-bottom: 94px;
@@ -472,13 +474,22 @@ border-radius: 0px;
 
 .card-set > .item-carts{
   flex-basis: calc((100% - 2 * 30px) / 3);
-  text-decoration: none;
+  
 }
 
 .item-carts-item{
 padding: 20px 24px;
-text-decoration: none;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+}
 
+.contacts-footer: not(:last-child){
+margin-bottom: 9px;
+}
+
+.address{
+margin-top: 20px;
 }
 
 .card-set{
@@ -513,7 +524,7 @@ text-decoration: none;
 
 .person-work{
   margin-top: 10px;
-  margin-bottom: 30px;
+  
 }
 
 .list-buttons{
@@ -525,11 +536,7 @@ text-decoration: none;
 }
 
 .allabout{
-  padding: 94px 94px;
+  padding: 94px 0;
 
-}
-
-.allabout > .container{
-  width: 1200px;
 }
 
