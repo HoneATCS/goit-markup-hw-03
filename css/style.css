@@ -245,6 +245,7 @@ padding-bottom: 30px;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   text-decoration: none;
+  margin-bottom: 4px;
 }
 
 .pcarts .text-cart {
@@ -258,14 +259,11 @@ padding-bottom: 30px;
 .pcarts{
   text-decoration: none;
 }
-.footer > .container{
+.footer{
   background: var(--bg-herro);
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  
 }
 
 .flogo{
@@ -484,11 +482,14 @@ border-right: 1px solid #EEEEEE;
 border-bottom: 1px solid #EEEEEE;
 }
 
-.contacts-footer: not(:last-child){
+.contacts-footer:not(:last-child){
 margin-bottom: 9px;
 }
+.contacts-footer{
+gap: 9px;
+}
 
-.address{
+address{
 margin-top: 20px;
 }
 
@@ -516,10 +517,6 @@ margin-top: 20px;
 
 .footer{
  background-color: var(--bg-herro);
-}
-
-.name{
-  margin-top: 30px;
 }
 
 .person-work{
